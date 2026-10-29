@@ -21,6 +21,7 @@ Setelah diperiksa, hasilnya menunjukkan lima tes tanpa kegagalan maupun kesalaha
 
 ## Penggunaan AI
 
+
 - **Alat yang dipakai:** ChatGPT (GPT).
 - **Bagian yang dibantu AI:** Memahami konsep dasar OOP dan implementasi class `HelloOOP` pada proyek Aset-Pinjam.
 - **Prompt utama:** “Bantu saya memahami implementasi class `HelloOOP` pada proyek Java ini.”
@@ -40,3 +41,5 @@ Setelah diperiksa, hasilnya menunjukkan lima tes tanpa kegagalan maupun kesalaha
 Saya menjalankan `scripts/uji.ps1` melalui terminal Visual Studio Code. Hasilnya menunjukkan lima tes berhasil tanpa kegagalan maupun kesalahan. Proses build juga selesai dengan status `BUILD SUCCESS`.
 
 ![Hasil Pengujian]![alt text](<Test Run-1.png>)
+
+         
