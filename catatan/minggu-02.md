@@ -1,5 +1,6 @@
 # Catatan Minggu 02: Struktur OOP: Class, Object, Encapsulation
 
+
 ## Yang saya kerjakan
 
 Pada minggu kedua, saya melengkapi kode pada class Aset.java. Saya membuat field menjadi private, menambahkan konstruktor, getter, dan setter, serta membuat validasi agar kode dan nama tidak boleh kosong. Saya juga mengatur status awal menjadi TERSEDIA dan kondisi awal menjadi BAIK.
