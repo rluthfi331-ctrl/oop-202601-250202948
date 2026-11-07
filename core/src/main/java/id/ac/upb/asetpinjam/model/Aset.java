@@ -6,7 +6,7 @@ import id.ac.upb.asetpinjam.kontrak.DapatDipinjam;
 /**
  * Aset yang dapat dipinjam.
  */
-public class Aset implements DapatDipinjam {
+public abstract class Aset implements DapatDipinjam {
 
     private String kode;
     private String nama;
@@ -64,14 +64,13 @@ public class Aset implements DapatDipinjam {
 
     @Override
     public boolean bisaDipinjam() {
-        throw new UnsupportedOperationException("TODO minggu 5");
+        return status == StatusAset.TERSEDIA
+                && kondisi != Kondisi.RUSAK_BERAT;
     }
 
     public JenisAset getJenis() {
         throw new UnsupportedOperationException("TODO minggu 3");
     }
 
-    public long hitungDenda(int hariTerlambat) {
-        throw new UnsupportedOperationException("TODO minggu 4");
-    }
+    public abstract long hitungDenda(int hariTerlambat);
 }
